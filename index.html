@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Rock Paper Scissors 🎮</h1>
+        
+        <div class="game-area">
+            <div class="choices">
+                <button class="choice-btn" onclick="play('rock')" id="rock">
+                    <span class="emoji">✊</span>
+                    <p>Rock</p>
+                </button>
+                <button class="choice-btn" onclick="play('paper')" id="paper">
+                    <span class="emoji">✋</span>
+                    <p>Paper</p>
+                </button>
+                <button class="choice-btn" onclick="play('scissor')" id="scissor">
+                    <span class="emoji">✌️</span>
+                    <p>Scissor</p>
+                </button>
+            </div>
+
+            <div class="result-area" id="result-area">
+                <h2>Make your choice!</h2>
+            </div>
+
+            <div class="score-area" id="score-area">
+                <div class="score-item">
+                    <h3>Player</h3>
+                    <p class="score" id="player-score">0</p>
+                </div>
+                <div class="score-item">
+                    <h3>Computer</h3>
+                    <p class="score" id="computer-score">0</p>
+                </div>
+            </div>
+
+            <div class="choice-display" id="choice-display">
+                <div class="player-choice">
+                    <h3>You chose:</h3>
+                    <p id="player-choice-text">-</p>
+                </div>
+                <div class="computer-choice">
+                    <h3>Computer chose:</h3>
+                    <p id="computer-choice-text">-</p>
+                </div>
+            </div>
+
+            <button class="reset-btn" onclick="resetGame()">Reset Game</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
