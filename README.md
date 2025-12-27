@@ -9,7 +9,8 @@ Python/
 └── static/
     ├── style.css      # Styling
     └── script.js      # JavaScript logic
-##  How to Run ### Step 1: Install Dependencies Open your terminal in this folder and run:
+##  How to Run 
+### Step 1: Install Dependencies Open your terminal in this folder and run:
 powershell
 pip install -r requirements.txt
 ### Step 2: Start the Server Run the Flask application:
