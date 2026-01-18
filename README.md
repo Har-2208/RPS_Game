@@ -9,7 +9,7 @@ Python/
 └── static/
     ├── style.css      # Styling
     └── script.js      # JavaScript logic
-##  How to Run 
+##  How to Run
 ### Step 1: Install Dependencies Open your terminal in this folder and run:
 powershell
 pip install -r requirements.txt
