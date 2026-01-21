@@ -4,7 +4,7 @@ Python/
 ├── app.py              # Flask backend server
 ├── RPS_game.py         # Original CLI version
 ├── requirements.txt    # Python dependencies
-├── templates/
+├── templates
 │   └── index.html     # Frontend HTML
 └── static/
     ├── style.css      # Styling
@@ -30,7 +30,7 @@ http://127.0.0.1:5000
 - **Frontend**: HTML, CSS, JavaScript
 - **API**: RESTful JSON API
 
-##  Features -  Beautiful gradient UI 
+##  Features -  Beautiful gradient UI
 - Live score tracking
 - Animated button interactions
 - Responsive design
