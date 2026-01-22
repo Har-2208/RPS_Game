@@ -40,4 +40,4 @@ http://127.0.0.1:5000
   - If you get "connection failed", make sure the Flask server is running
   - Check that you're accessing http://127.0.0.1:5000 (not localhost:5000 if that doesn't work) 
   - Make sure port 5000 is not being used by another application
-    Enjoy the game! 
+    Enjoy the game
