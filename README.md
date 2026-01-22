@@ -1,4 +1,4 @@
-# Rock Paper Scissors - Web Application A fun Rock Paper Scissors game with a web-based frontend and Flask backend! 
+# Rock Paper Scissors - Web Application A fun Rock Paper Scissors game with a web-based frontend and Flask backend
 ##  Project Structure
 Python/
 ├── app.py              # Flask backend server
